@@ -1,9 +1,9 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import Home from "./components/TodoApp/Home";
+import TodoList from "./components/TodoApp/TodoList";
 
 const App = () => {
-  return <Home />;
+  return <TodoList />;
 };
 
 export default App;

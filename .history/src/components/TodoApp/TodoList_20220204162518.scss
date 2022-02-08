@@ -1,0 +1,35 @@
+.todo {
+  max-width: 500px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 15px 20px;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  overflow: hidden;
+  form {
+    margin-bottom: 20px;
+  }
+  &-input {
+    max-width: 350px;
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  &-btn {
+    border: 0;
+    padding: 16px;
+    outline: none;
+    cursor: pointer;
+    background-color: #2cccff;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+  &-list {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+}
