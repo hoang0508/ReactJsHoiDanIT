@@ -1,0 +1,26 @@
+.product {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &-list {
+    width: 40%;
+  }
+  &-content {
+    width: 60%;
+  }
+  &-name {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+  &-price {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  &-size {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+}

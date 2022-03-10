@@ -1,0 +1,11 @@
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &-list {
+    width: 40%;
+  }
+  &-content {
+    width: 60%;
+  }
+}

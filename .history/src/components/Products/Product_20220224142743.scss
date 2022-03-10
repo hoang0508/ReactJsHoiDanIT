@@ -1,0 +1,52 @@
+.product {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &-list {
+    width: 40%;
+  }
+  &-content {
+    width: 60%;
+  }
+  &-name {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+  &-price {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  &-size {
+    margin-bottom: 10px;
+  }
+  &-count {
+    margin-bottom: 20px;
+  }
+  &-quantity {
+    padding-bottom: 10px;
+  }
+  &-btn {
+    outline: none;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+  }
+  &-input {
+    width: 50px;
+    outline: none;
+    border: 1px solid #ccc;
+  }
+  &-buy {
+    width: 300px;
+    padding: 10px 20px;
+    border: 0;
+    outline: none;
+    background-color: #ff616a;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+}
