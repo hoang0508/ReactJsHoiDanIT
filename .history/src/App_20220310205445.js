@@ -1,7 +1,7 @@
 // import logo from "./logo.svg";
 import "./App.css";
 import "react-image-lightbox/style.css";
-import AddNewProduct from "./components/Form/AddNewProduct";
+// import AddNewProduct from "./components/Form/AddNewProduct";
 import Product from "./components/Products/Product";
 import Home from "./components/TodoApp/Home";
 import { Routes, Route } from "react-router-dom";
@@ -16,9 +16,10 @@ const App = () => {
         <Route path="/" element={<Home />}></Route>
         <Route path="/product" element={<Product />}></Route>
         <Route path="/weather" element={<Weather />}></Route>
-        <Route path="/form" element={<AddNewProduct />}></Route>
         <Route path="*" element={<div>404 Not Found!!!</div>}></Route>
       </Routes>
+
+      {/* <AddNewProduct /> */}
     </>
   );
 };
